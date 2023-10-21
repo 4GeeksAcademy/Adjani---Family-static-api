@@ -70,13 +70,13 @@ class FamilyStructure:
                 "age": 23,
                 "lucky_numbers": [34, 65, 23, 4, 6]
             }
-        if id == 4446:
-            return {
-                "first_name": "Sandra",
-                "id": 4446,
-                "age": 12,
-                "lucky_numbers": [12, 34, 33, 45, 32, 12]
-            }
+        # if id == 4446:
+        #     return {
+        #         "first_name": "Sandra",
+        #         "id": 4446,
+        #         "age": 12,
+        #         "lucky_numbers": [12, 34, 33, 45, 32, 12]
+        #     }
         for member in self._members:
             if member["id"] == id:
                 return {
